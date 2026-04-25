@@ -1,14 +1,1 @@
-const audio = document.getElementById("horror");
-
-function playAudio() {
-  audio.play().then(() => {
-    console.log("Audio jalan");
-  }).catch((err) => {
-    console.log("Error:", err);
-  });
-}
-
-// pakai banyak trigger biar pasti kena
-document.addEventListener("click", playAudio, { once: true });
-document.addEventListener("touchstart", playAudio, { once: true });
-document.addEventListener("scroll", playAudio, { once: true });
+alert("don't play the sound, kode:01100110 01101111 01110101 01101110 01100100 00100000 01111001 01101111 01110101")
